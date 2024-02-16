@@ -1,0 +1,76 @@
+.fa-sliders{
+    display: block!important;
+}
+
+.logoRP{
+    width: 2em;
+}
+.links ul li a{
+    margin: 8px;
+    padding: 8px 20px;
+    font-size: 1em;
+}
+
+.links{
+    position: fixed;
+    top: 70px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    width: 100%;
+    margin-left: 100%;
+    transition: all 1s ease;
+}
+.links ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.links ul li {
+    width: 100%;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+.portfolio{
+    font-size: 50px;
+}
+
+.my_img{
+    width: 50%;
+}
+
+.img_about{
+    flex-direction: column;
+}
+.about{
+    margin-top: .5em;
+}
+.about p ,.front-dev,.technician{
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+}
+
+.skills{
+    flex-direction: column;
+}
+
+.info{
+    font-size: 30px;
+}
+
+.front-dev{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+

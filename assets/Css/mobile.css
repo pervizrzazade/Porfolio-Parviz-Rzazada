@@ -1,0 +1,39 @@
+
+.portfolio{
+    font-size: 30px;
+}
+
+.about{
+    padding: 0;
+}
+.info,.info-dev,.info-technician{
+    font-size: 25px;
+}
+.about p,.front-dev,.technician{
+    font-size: .8em ;
+}
+.sosial-networks a{
+    text-decoration: none;
+    color: #16A085;
+    font-size: 1em;
+    padding: 3px;
+}
+.sosial-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (max-width:198px){
+    .logo-toogle{
+        display: flex;
+    }
+    .portfolio{
+        font-size: 20px;
+    }
+    .info,.info-dev,.info-technician{
+        font-size: 20px;
+    }
+}
