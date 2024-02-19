@@ -5,25 +5,28 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    height: 100vh;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 33%, #ffffff 66%, #85ffbd 10%);
-    background-repeat: repeat;
-    background-position: center center;
-    background-size: cover;
-}
 
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.content{
+    position: relative;
+    top: 5em;
+}
 nav{
     display: flex;
     justify-content: space-between;
+    position:sticky!important;
+    top: 50px;
     flex-wrap: wrap;
-    background-color: #1b975dbe;
-}
-nav:hover{
+    width: 100%;
     background-color: #417a5f;
-    transition: 1s;
+    
 }
+
+
 
 .links{
     display: flex;
@@ -52,7 +55,6 @@ nav:hover{
     transition: 0.8s;
     background-size: 200% auto;
     color: rgb(0, 0, 0);
-    box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
     font-size: 1.5em;
@@ -90,6 +92,7 @@ nav:hover{
     display: none!important;
 
 }
+
 
 .content-about{
     display: flex;
@@ -135,13 +138,14 @@ nav:hover{
     height: 100%;
 
 }
-.info{
+.info,.submit{
     color: #006435;
     text-align: center;
-    font-weight: 800;
-    font-size: 40px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 35px;
     border-radius: 2em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .about p {
@@ -153,7 +157,7 @@ nav:hover{
 }
 
 hr{
-    margin: 1em 0em;
+    margin: 20px 0em;
     width: 100%;
     border: 2px solid #16A085;
 }
@@ -202,13 +206,12 @@ hr{
     justify-content: center;
     align-items: center;
     padding-top: .5em;
-    background-color:#16a08425;
     width: 100%;
-    border-radius: 1em;
 }
 
 .my-projects ul{
     display: flex;
+    max-width: 80%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -246,7 +249,6 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 1em;
 }
 
 .content-contact input,textarea,button{
@@ -293,6 +295,7 @@ hr{
     font-size: 1.2em;
     padding: 6px;
 }
+
 .sosial-networks a:hover{
     color: #0e5e4e;
     text-decoration-color: #000000;
