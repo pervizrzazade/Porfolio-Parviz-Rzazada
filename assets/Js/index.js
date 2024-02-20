@@ -6,3 +6,13 @@ toogleMenu.addEventListener('click', ()=>{
 window.onscroll = () => {
     navLinks.classList.remove("mobile-menu");
 };
+
+const scrollTop = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll",()=>{
+    if(window.pageYOffset>100){
+        scrollTop.classList.add("active"); 
+     }else{
+        scrollTop.classList.remove("active");
+     }
+})

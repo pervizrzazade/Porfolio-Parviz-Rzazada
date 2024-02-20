@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 
 .navbar{
     position: fixed;
@@ -309,4 +313,31 @@ hr{
 .copyright{
     margin-top: 1em;
     text-align: center;
+}
+
+
+.scroll-top{
+    position: fixed;
+    background-color: #0e5e4e;
+    color: #fff;    
+    font-size: 1.5em;
+    width: 60px;
+    height: 50px;
+    bottom: 18px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+}
+
+
+.scroll-top.active{
+    bottom: 30px;
+    pointer-events: auto;
+    opacity: 1;
 }
